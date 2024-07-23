@@ -30,8 +30,8 @@ const TimeLine = ({ timelines = [] }) => {
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
-            <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography variant="h6">{item.title}</Typography>
+            <TimelineContent sx={{ py: "42px", px: 2 }}>
+              <Typography variant="">{item.title}</Typography>
               <Typography>{item.description}</Typography>
             </TimelineContent>
           </TimelineItem>

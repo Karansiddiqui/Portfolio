@@ -104,7 +104,7 @@
     height: 1500px;
     position: relative;
     margin-bottom: -200px;
-    padding: 200px;
+    padding-top: 200px;
     box-sizing: border-box;
     perspective: 450px;
     display: flex;
@@ -117,8 +117,14 @@
   .homeSkills > h3 {
     text-align: center;
     color: white;
-    margin-bottom: 4vmax;
+    margin-bottom: 1px;
     font-size: 4vmax;
+  }
+  .homeSkills > h5 {
+    text-align: center;
+    color: white;
+    margin-bottom: 4vmax;
+    font-size: 2vmax;
   }
   
   .homeCubeSkills {

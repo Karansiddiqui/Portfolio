@@ -9,13 +9,13 @@ const Footer = () => {
     <div className="footer">
       <div>
         <Typography variant="h5"><a style={{"text-decoration": "none", "color": "white"}} href="/about" rel="">About Me</a></Typography>
-        <Typography>
+        <Typography variant="h4">
           Hey, my name is Karan Siddiqui. I am a Full-Stack Developer.
         </Typography>
-        <Typography>
+        <Typography variant="h4">
           karansiddiq@gmail.com
         </Typography>
-        <Typography>
+        <Typography variant="h4">
           +91-7626941231
         </Typography>
 
