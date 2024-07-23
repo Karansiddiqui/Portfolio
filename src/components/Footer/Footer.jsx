@@ -12,6 +12,12 @@ const Footer = () => {
         <Typography>
           Hey, my name is Karan Siddiqui. I am a Full-Stack Developer.
         </Typography>
+        <Typography>
+          karansiddiq@gmail.com
+        </Typography>
+        <Typography>
+          +91-7626941231
+        </Typography>
 
       </div>
       <div>
