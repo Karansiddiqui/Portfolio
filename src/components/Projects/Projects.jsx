@@ -16,7 +16,7 @@ export const ProjectCard = ({url, projectTitle, projectImage, description, techn
         <div>
           <Typography variant="h4"> About Project</Typography>
           <Typography>{description}</Typography>
-          <Typography variant="h6">Tech Stack: {technologies}</Typography>
+          <Typography variant="h6"><span style={{"font-size": "25px"}}>Tech Stack:</span> {technologies}</Typography>
         </div>
       </a>
     </>
