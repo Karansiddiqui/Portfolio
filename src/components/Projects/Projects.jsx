@@ -9,7 +9,7 @@ export const ProjectCard = ({url, projectTitle, projectImage, description, techn
   
   return (
     <>
-      <a href={url} className="projectCard" target="black">
+      <a href={url} className="projectCard" target="black" rel="noopener noreferrer">
         <div>
           <Typography variant="h5">{projectTitle}</Typography>
           <img src={projectImage} alt="Project" />
