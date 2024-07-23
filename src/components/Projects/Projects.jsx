@@ -6,9 +6,10 @@ import { Delete } from "@mui/icons-material";
 import { FaRegSmileWink } from "react-icons/fa";
 
 export const ProjectCard = ({url, projectTitle, projectImage, description, technologies}) => {
+  
   return (
     <>
-      <a href="url" className="projectCard" target="black">
+      <a href={url} className="projectCard" target="black">
         <div>
           <Typography variant="h5">{projectTitle}</Typography>
           <img src={projectImage} alt="Project" />
